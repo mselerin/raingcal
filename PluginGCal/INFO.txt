@@ -1,0 +1,10 @@
+﻿Post-Build Event :
+
+"$(SolutionDir)API\DllExporter.exe" "$(ConfigurationName)" "$(PlatformName)" "$(TargetDir)\" "$(TargetFileName)"
+
+
+
+Sample query :
+
+
+http://www.google.com/calendar/feeds/en.uk%23holiday%40group.v.calendar.google.com/public/full?max-results=15&orderby=starttime&singleevents=true&sortorder=a&start-min=2013-03-22
